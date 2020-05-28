@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+.Background{
+    height: 90vh;
+    width: 100vw;
+    background-color: #242021;
+    padding: 10px;
+}
+
+.DownStripe{
+    height: 10vh;
+    width: calc(58px*4);
+    margin: 0px auto;
+}
+#img_icon{
+    height: 48px;
+    width: 48px;
+    margin: 3px;
+    display: inline-block;
+}
+#contact_inform{
+    display: block;
+    margin: calc(100vh- 24px) auto;
+    height: 75vh;
+    width: auto;
+}
+#footer_style{
+    text-align: center;   
+}
+
+/*以下這段code來自https://www.webdesigns.com.tw/css-zoom_in.asp
+是為了實現游標移上圖片放大的效果*/
+.pic_tran{
+    width:auto;
+     height:auto;
+}
+.pic_tran img{
+    transform: scale(1,1);
+    height: auto;
+    width: 20vw;
+    transition: all 1s ease-out;
+    display: inline-block;
+}
+
+.pic_tran img:hover{transform:scale(1.2,1.2);}
+
+.span{
+    width:8vw;
+    display: inline-block;
+}
+.img_change_mode_btn{
+    width: 5vw;
+    height: auto;
+    display: inline-block;
+}
+.pic_left{
+    transform: scale(1,1);
+    height: auto;
+    width: 15vw;
+    display: inline-block;
+}
+.pic_right{
+    transform: scale(1,1);
+    height: auto;
+    width: 15vw;
+    display: inline-block;
+}
+.pic_center{
+    transform: scale(1,1);
+    height: auto;
+    width: 20vw;
+    margin-top: 5vh;
+    margin-left: calc(15vw/2);
+    margin-right: calc(15vw/2);
+    display: inline-block;
+}
+.select_square{
+    height: 70vh;
+    width: 35vw;
+    display: inline-block;
+    border: double;
+    border-color: white;
+}
+.picture_L{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.picture_R{
+    display: inline-block;
+    vertical-align: top;
+}
+.introduction{}
+.articlebox{
+    left: 71px;
+    top: 188px;
+    overflow: hidden;
+    width: 30vw;
+    height: 30vh;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+    margin: auto;
+    word-break: break-word;
+    text-overflow: ellipsis;
+}
+.articlebox p{
+    color:white;
+}
+
+.article_span{
+    width: 31vw;
+    display: inline-block;
+}
+.center_picture{
+    height: 35vh;
+    width: 20vw;
+    display: inline-block;
+}
+.bothside_picture{
+    width: calc((60vw)/2);
+    height: auto;
+    display: inline-block;
+}
+.left_top_article{
+    left: 71px;
+    top: 188px;
+    overflow: hidden;
+    width: 15vw;
+    height: 13vh;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+    margin: auto;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    display: block;
+}
+.left_top_title{
+    color: rgb(170, 170, 165);
+    text-align: center;
+    font-family: Segoe UI;
+    
+}
+.right_bottom_title{
+    color: rgb(170, 170, 165);
+    text-align: center;
+    font-family: Segoe UI;
+}
+.right_bottom_article{
+    left: 71px;
+    top: 188px;
+    overflow: hidden;
+    width: 15vw;
+    height: 13vh;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+    margin: auto;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    display: block;
+}
+.yellow{
+    color: yellow;
+    text-align: center;
+    font-family: Segoe UI;
+}
+.gray{
+    color: rgb(170, 170, 165);
+    text-align: center;
+    font-family: Segoe UI;
+}
+.blue{
+    color: rgb(96, 136, 221);
+    text-align: center;
+    font-family: Segoe UI;
+}
