@@ -1,0 +1,14 @@
+[
+null,
+{"id":1,"expanded":true,"name":"雙嶼市集","order":1,"parentId":0,"scrollX":936,"scrollY":1343.3333333333333},
+{"id":2,"expanded":true,"name":"雙嶼西北","order":5,"parentId":0,"scrollX":925.3333333333334,"scrollY":701.3333333333334},
+{"id":3,"expanded":false,"name":"教堂","order":2,"parentId":1,"scrollX":1186,"scrollY":677},
+{"id":4,"expanded":false,"name":"酒館","order":3,"parentId":1,"scrollX":936,"scrollY":1354},
+{"id":5,"expanded":false,"name":"收購陶瓷的牙行","order":4,"parentId":1,"scrollX":936,"scrollY":1261.3333333333333},
+{"id":6,"expanded":true,"name":"雙嶼西北海邊(陸地MOD)","order":6,"parentId":2,"scrollX":1220,"scrollY":1461.3333333333333},
+{"id":7,"expanded":false,"name":"雙嶼西北海邊(海MOD)","order":7,"parentId":6,"scrollX":1474.6666666666667,"scrollY":1354.6666666666667},
+{"id":8,"expanded":true,"name":"ToolMap","order":8,"parentId":0,"scrollX":2372,"scrollY":1354},
+{"id":9,"expanded":false,"name":"小屋","order":10,"parentId":10,"scrollX":936,"scrollY":712},
+{"id":10,"expanded":true,"name":"小島","order":9,"parentId":0,"scrollX":1220,"scrollY":701.3333333333334},
+{"id":11,"expanded":false,"name":"賞月景點","order":11,"parentId":0,"scrollX":1186,"scrollY":677}
+]

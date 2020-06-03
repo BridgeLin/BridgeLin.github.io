@@ -1,0 +1,7 @@
+[
+null,
+{"id":1,"list":[{"code":223,"indent":0,"parameters":[[-68,-68,0,68],60,true]},{"code":0,"indent":0,"parameters":[]}],"name":"夜晚","switchId":1,"trigger":0},
+{"id":2,"list":[{"code":223,"indent":0,"parameters":[[68,-34,-34,0],60,true]},{"code":0,"indent":0,"parameters":[]}],"name":"日落","switchId":1,"trigger":0},
+{"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
+]
