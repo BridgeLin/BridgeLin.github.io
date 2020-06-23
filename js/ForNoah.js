@@ -46,7 +46,7 @@ var produce_cow=function(){
         $this = $(eventObject.target)
         //變成牛奶罐
         $this.attr('src','./img/milk.svg')
-        setInterval(function(){$this.remove()},200);
+        setInterval(function(){$this.remove()},500);
         //牛群數減一
         cow_num--
         $('#cow_num').text("牛群數量/船隻容量："+cow_num+"/"+ship)
