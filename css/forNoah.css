@@ -1,0 +1,26 @@
+.cow{
+    height:5vh;
+    width:auto;
+    display: inline-block;
+}
+.cow_reverse{
+    height:5vh;
+    width:auto;
+    display: inline-block;
+    transform: scaleX(-1);
+}
+
+.square{
+    height: 45vh;
+    width: 45vw;
+    margin: auto;
+    margin-top: calc(55vh/2);
+    background-color: rgb(72, 158, 72);
+}
+.status{
+    width: 45vw;
+    margin: auto;
+    font-size: 30px;
+}
+#cow_num{}
+#milk_num{}
